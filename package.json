@@ -30,6 +30,7 @@
     "node": ">=18.18.0"
   },
   "dependencies": {
+    "2023-07-01": "link:@cloudflare/workers-types/2023-07-01",
     "@ai-sdk/amazon-bedrock": "1.0.6",
     "@ai-sdk/anthropic": "^0.0.39",
     "@ai-sdk/cohere": "^1.0.3",

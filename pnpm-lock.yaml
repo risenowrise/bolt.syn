@@ -11,6 +11,9 @@ importers:
 
   .:
     dependencies:
+      '2023-07-01':
+        specifier: link:@cloudflare/workers-types/2023-07-01
+        version: link:@cloudflare/workers-types/2023-07-01
       '@ai-sdk/amazon-bedrock':
         specifier: 1.0.6
         version: 1.0.6(zod@3.24.1)
