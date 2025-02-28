@@ -19,6 +19,12 @@ export default class AnthropicProvider extends BaseProvider {
 			provider: 'Anthropic',
 			maxTokenAllowed: 8000,
 		},
+		{
+			name: 'claude-3-7-sonnet-latest',
+			label: 'Claude 3.7 Sonnet (latest)',
+			provider: 'Anthropic',
+			maxTokenAllowed: 8000,
+		},
 
 		{
 			name: 'claude-3-7-sonnet-thinking-20240620',
@@ -42,12 +48,6 @@ export default class AnthropicProvider extends BaseProvider {
 		{
 			name: 'claude-3-5-sonnet-latest',
 			label: 'Claude 3.5 Sonnet (new)',
-			provider: 'Anthropic',
-			maxTokenAllowed: 8000,
-		},
-		{
-			name: 'claude-3-5-sonnet-20240620',
-			label: 'Claude 3.5 Sonnet (old)',
 			provider: 'Anthropic',
 			maxTokenAllowed: 8000,
 		},
